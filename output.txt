@@ -1,0 +1,178 @@
+========================================
+       INVENTORY MANAGEMENT SYSTEM
+========================================
+
+========== MENU ==========
+1. Add Product
+2. Search Product
+3. Update Stock
+4. Delete Product
+5. Display All Products
+6. View Transaction History
+7. Exit
+==========================
+Enter your choice: 5
+
+========== PRODUCT INVENTORY ==========
+ID: 101 | Name: Laptop               | Stock: 10 | Price: 55000.00
+ID: 102 | Name: Mouse                | Stock: 25 | Price: 800.00
+ID: 103 | Name: Keyboard             | Stock: 15 | Price: 1500.00
+ID: 104 | Name: Monitor              | Stock: 8 | Price: 12000.00
+ID: 105 | Name: Headphones           | Stock: 20 | Price: 2500.00
+
+========== MENU ==========
+1. Add Product
+2. Search Product
+3. Update Stock
+4. Delete Product
+5. Display All Products
+6. View Transaction History
+7. Exit
+==========================
+Enter your choice: 2
+
+Enter Product ID: 103
+
+Product Found!
+ID    : 103
+Name  : Keyboard
+Stock : 15
+Price : 1500.00
+
+========== MENU ==========
+1. Add Product
+2. Search Product
+3. Update Stock
+4. Delete Product
+5. Display All Products
+6. View Transaction History
+7. Exit
+==========================
+Enter your choice: 2
+
+Enter Product ID: 999
+Product not found!
+
+========== MENU ==========
+1. Add Product
+2. Search Product
+3. Update Stock
+4. Delete Product
+5. Display All Products
+6. View Transaction History
+7. Exit
+==========================
+Enter your choice: 1
+
+Enter Product ID: 106
+Enter Product Name: USB Cable
+Enter Stock: 30
+Enter Price: 300
+Product added successfully!
+
+========== MENU ==========
+1. Add Product
+2. Search Product
+3. Update Stock
+4. Delete Product
+5. Display All Products
+6. View Transaction History
+7. Exit
+==========================
+Enter your choice: 3
+
+Enter Product ID: 103
+Current Stock: 15
+1. Purchase / Add Stock
+2. Sale / Remove Stock
+Enter choice: 1
+Enter quantity: 10
+Stock updated successfully!
+
+========== MENU ==========
+1. Add Product
+2. Search Product
+3. Update Stock
+4. Delete Product
+5. Display All Products
+6. View Transaction History
+7. Exit
+==========================
+Enter your choice: 3
+
+Enter Product ID: 101
+Current Stock: 10
+1. Purchase / Add Stock
+2. Sale / Remove Stock
+Enter choice: 2
+Enter quantity: 3
+Stock updated successfully!
+
+========== MENU ==========
+1. Add Product
+2. Search Product
+3. Update Stock
+4. Delete Product
+5. Display All Products
+6. View Transaction History
+7. Exit
+==========================
+Enter your choice: 6
+
+========== TRANSACTION HISTORY ==========
+Product ID : 101
+Product    : Laptop
+Type       : SALE
+Quantity   : 3
+----------------------------------------
+Product ID : 103
+Product    : Keyboard
+Type       : PURCHASE
+Quantity   : 10
+----------------------------------------
+
+========== MENU ==========
+1. Add Product
+2. Search Product
+3. Update Stock
+4. Delete Product
+5. Display All Products
+6. View Transaction History
+7. Exit
+==========================
+Enter your choice: 
+4
+
+Enter Product ID to delete: 105
+Product deleted successfully!
+
+========== MENU ==========
+1. Add Product
+2. Search Product
+3. Update Stock
+4. Delete Product
+5. Display All Products
+6. View Transaction History
+7. Exit
+==========================
+Enter your choice: 5
+
+========== PRODUCT INVENTORY ==========
+ID: 101 | Name: Laptop               | Stock: 7 | Price: 55000.00
+ID: 102 | Name: Mouse                | Stock: 25 | Price: 800.00
+ID: 103 | Name: Keyboard             | Stock: 25 | Price: 1500.00
+ID: 104 | Name: Monitor              | Stock: 8 | Price: 12000.00
+ID: 106 | Name: USB Cable            | Stock: 30 | Price: 300.00
+
+========== MENU ==========
+1. Add Product
+2. Search Product
+3. Update Stock
+4. Delete Product
+5. Display All Products
+6. View Transaction History
+7. Exit
+==========================
+Enter your choice: 7
+
+Thank you!
